@@ -1,0 +1,78 @@
+.container{
+    height: 600px;
+    width: 340px;
+    border: 1px solid #d6d6d6;
+    border-radius: 10px;
+    position: relative;
+    margin-top: 10vh;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.product{
+    margin-top: 30px;
+    width: 330px;
+    margin-right: 45px;
+    height: fit-content;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+img{
+    width: 300px;
+}
+.fav{
+    border: 1px solid #d6d6d6;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 7px;
+    top: 7px;
+    text-align: center;
+    padding: 12px;
+    box-shadow: 1px 1px 3px rgba(184, 184, 184, 0.651);
+}
+.fav i{
+font-size: 25px;
+color: #707070;
+}
+.fav i:hover{
+    color: rgb(221, 136, 8);
+}
+.stars{
+    color: #ebd024;
+    font-size: 13px;
+    display: inline-block;
+}
+#gray{
+    color: #d6d6d6;
+}
+.fa-solid .fa-camera-retro{
+    color: #000000;
+    font-size: 18px;
+}
+#price{
+    color:rgb(221, 136, 8) ;
+    font-family: 'Gabarito', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    margin-top: 30px;
+}
+.content h4{
+    font-family: 'Gabarito', sans-serif;
+    font-size: 19px;
+    display: inline-block;
+     color: #000000;
+}
+.content span{
+    font-family: 'Gabarito', sans-serif;
+    font-size: 17px;
+    display: inline-block;
+    color: #707070;
+}
+sup{
+    font-family: 'Gabarito', sans-serif;
+    font-size: 13px;
+    color: #b6b6b6;
+}
+.content{
+    margin: 20px;
+}
